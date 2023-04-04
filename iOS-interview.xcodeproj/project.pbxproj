@@ -12,6 +12,15 @@
 		D8DBEB6129DC9EE300628F5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DBEB6029DC9EE300628F5C /* ViewController.swift */; };
 		D8DBEB6629DC9EE700628F5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DBEB6529DC9EE700628F5C /* Assets.xcassets */; };
 		D8DBEB6929DC9EE700628F5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DBEB6729DC9EE700628F5C /* LaunchScreen.storyboard */; };
+		D8DBEB7629DCA28D00628F5C /* giphy_1.json in Resources */ = {isa = PBXBuildFile; fileRef = D8DBEB7129DCA28D00628F5C /* giphy_1.json */; };
+		D8DBEB7729DCA28D00628F5C /* giphy_3.json in Resources */ = {isa = PBXBuildFile; fileRef = D8DBEB7229DCA28D00628F5C /* giphy_3.json */; };
+		D8DBEB7829DCA28D00628F5C /* giphy_2.json in Resources */ = {isa = PBXBuildFile; fileRef = D8DBEB7329DCA28D00628F5C /* giphy_2.json */; };
+		D8DBEB7929DCA28D00628F5C /* giphy_5.json in Resources */ = {isa = PBXBuildFile; fileRef = D8DBEB7429DCA28D00628F5C /* giphy_5.json */; };
+		D8DBEB7A29DCA28D00628F5C /* giphy_4.json in Resources */ = {isa = PBXBuildFile; fileRef = D8DBEB7529DCA28D00628F5C /* giphy_4.json */; };
+		D8DBEB9629DCA29700628F5C /* Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DBEB8A29DCA29700628F5C /* Anchors.swift */; };
+		D8DBEB9729DCA29700628F5C /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DBEB8B29DCA29700628F5C /* Typealias.swift */; };
+		D8DBEB9C29DCA52A00628F5C /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DBEB9A29DCA52A00628F5C /* NetworkingService.swift */; };
+		D8DBEB9D29DCA52A00628F5C /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DBEB9B29DCA52A00628F5C /* NetworkingError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		D8DBEB6529DC9EE700628F5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8DBEB6829DC9EE700628F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8DBEB6A29DC9EE700628F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DBEB7129DCA28D00628F5C /* giphy_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = giphy_1.json; sourceTree = "<group>"; };
+		D8DBEB7229DCA28D00628F5C /* giphy_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = giphy_3.json; sourceTree = "<group>"; };
+		D8DBEB7329DCA28D00628F5C /* giphy_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = giphy_2.json; sourceTree = "<group>"; };
+		D8DBEB7429DCA28D00628F5C /* giphy_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = giphy_5.json; sourceTree = "<group>"; };
+		D8DBEB7529DCA28D00628F5C /* giphy_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = giphy_4.json; sourceTree = "<group>"; };
+		D8DBEB8A29DCA29700628F5C /* Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anchors.swift; sourceTree = "<group>"; };
+		D8DBEB8B29DCA29700628F5C /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		D8DBEB9A29DCA52A00628F5C /* NetworkingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		D8DBEB9B29DCA52A00628F5C /* NetworkingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,9 @@
 		D8DBEB5B29DC9EE300628F5C /* iOS-interview */ = {
 			isa = PBXGroup;
 			children = (
+				D8DBEB7B29DCA29600628F5C /* API */,
+				D8DBEB8829DCA29700628F5C /* Util */,
+				D8DBEB7029DCA28D00628F5C /* Resources */,
 				D8DBEB5C29DC9EE300628F5C /* AppDelegate.swift */,
 				D8DBEB5E29DC9EE300628F5C /* SceneDelegate.swift */,
 				D8DBEB6029DC9EE300628F5C /* ViewController.swift */,
@@ -62,6 +83,36 @@
 				D8DBEB6A29DC9EE700628F5C /* Info.plist */,
 			);
 			path = "iOS-interview";
+			sourceTree = "<group>";
+		};
+		D8DBEB7029DCA28D00628F5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8DBEB7129DCA28D00628F5C /* giphy_1.json */,
+				D8DBEB7229DCA28D00628F5C /* giphy_3.json */,
+				D8DBEB7329DCA28D00628F5C /* giphy_2.json */,
+				D8DBEB7429DCA28D00628F5C /* giphy_5.json */,
+				D8DBEB7529DCA28D00628F5C /* giphy_4.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8DBEB7B29DCA29600628F5C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D8DBEB9B29DCA52A00628F5C /* NetworkingError.swift */,
+				D8DBEB9A29DCA52A00628F5C /* NetworkingService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		D8DBEB8829DCA29700628F5C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D8DBEB8A29DCA29700628F5C /* Anchors.swift */,
+				D8DBEB8B29DCA29700628F5C /* Typealias.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +174,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8DBEB6929DC9EE700628F5C /* LaunchScreen.storyboard in Resources */,
+				D8DBEB7929DCA28D00628F5C /* giphy_5.json in Resources */,
+				D8DBEB7629DCA28D00628F5C /* giphy_1.json in Resources */,
 				D8DBEB6629DC9EE700628F5C /* Assets.xcassets in Resources */,
+				D8DBEB7729DCA28D00628F5C /* giphy_3.json in Resources */,
+				D8DBEB7A29DCA28D00628F5C /* giphy_4.json in Resources */,
+				D8DBEB7829DCA28D00628F5C /* giphy_2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +192,10 @@
 			files = (
 				D8DBEB6129DC9EE300628F5C /* ViewController.swift in Sources */,
 				D8DBEB5D29DC9EE300628F5C /* AppDelegate.swift in Sources */,
+				D8DBEB9729DCA29700628F5C /* Typealias.swift in Sources */,
+				D8DBEB9D29DCA52A00628F5C /* NetworkingError.swift in Sources */,
+				D8DBEB9C29DCA52A00628F5C /* NetworkingService.swift in Sources */,
+				D8DBEB9629DCA29700628F5C /* Anchors.swift in Sources */,
 				D8DBEB5F29DC9EE300628F5C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
