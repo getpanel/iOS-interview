@@ -1,6 +1,6 @@
 //
 //  NetworkingService.swift
-//  ios_interview
+//  iOS-interview
 //
 //  Created by Caleb Davis on 4/4/23.
 //
