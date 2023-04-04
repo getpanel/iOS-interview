@@ -4,6 +4,7 @@ Please look at the challenge closely and make sure to cover all of the requireme
 
 ## ⭐️ Technical Requirements
 - Swift is required
+- You can use SwiftUI, but please be prepared to justify the tradeoffs over UIKit
 - Write the app as if it was going to be part of a larger scale application by focusing on architecture and best practices
 - Feel free to use any 3rd party libraries
 - Use any resources: Google, Stack Overflow, etc.  You'll need to explain your solution in depth, so be sure not to copy-paste
