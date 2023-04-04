@@ -89,10 +89,10 @@
 			isa = PBXGroup;
 			children = (
 				D8DBEB7129DCA28D00628F5C /* giphy_1.json */,
-				D8DBEB7229DCA28D00628F5C /* giphy_3.json */,
 				D8DBEB7329DCA28D00628F5C /* giphy_2.json */,
-				D8DBEB7429DCA28D00628F5C /* giphy_5.json */,
+				D8DBEB7229DCA28D00628F5C /* giphy_3.json */,
 				D8DBEB7529DCA28D00628F5C /* giphy_4.json */,
+				D8DBEB7429DCA28D00628F5C /* giphy_5.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
