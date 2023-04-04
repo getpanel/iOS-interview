@@ -4,7 +4,6 @@ Please look at the challenge closely and make sure to cover all of the requireme
 
 ## ⭐️ Technical Requirements
 - Swift is required
-- No SwiftUI, we love SwiftUI but we need to make sure you understand UIKit
 - Write the app as if it was going to be part of a larger scale application by focusing on architecture and best practices
 - Feel free to use any 3rd party libraries
 - Use any resources: Google, Stack Overflow, etc.  You'll need to explain your solution in depth, so be sure not to copy-paste
@@ -12,10 +11,10 @@ Please look at the challenge closely and make sure to cover all of the requireme
 ## 🔍 What we are looking for
 - Project completeness
 - Code quality: style, organization, and design
-- Personal flare
+- Personal flair
 - Communication, collaboration, time management, and technical excellence
 
-Please submit your code to `caleb@getpanel.dev` after the interview.
+Please email your Xcode project to `caleb@getpanel.dev` after the interview.
 
 # GIPHY Requirements
 - Display a `UICollectionView` that contains the gifs provided
