@@ -19,6 +19,8 @@ Please email your Xcode project to `caleb@getpanel.dev` after the interview.
 
 # GIPHY Requirements
 - Display a `UICollectionView` that contains the gifs provided
+- Present a new UIViewController that has the title and a larger video size when selected
+- Give the user the ability to play/pause a video based on a custom interaction
 - The list should support pagination and infinite scrolling
 - You can use any video size that the API provides
 
