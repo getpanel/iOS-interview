@@ -24,7 +24,7 @@ protocol NetworkingService {
 final class NetworkingServiceImp: NetworkingService {
 
     func fetchImages<T: Decodable>(page: Int, completion: @escaping NetworkingCompletion<T>) {
-        guard (1..<5).contains(page) else {
+        guard (0..<5).contains(page) else {
             return completion(.failure( NetworkingError.invalidOffset))
         }
         
