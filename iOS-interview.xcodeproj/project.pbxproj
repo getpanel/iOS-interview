@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8C926372A2BDF340027392D /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C926362A2BDF340027392D /* Response.swift */; };
+		D8C926392A2BE2A40027392D /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C926382A2BE2A40027392D /* GifImage.swift */; };
+		D8C9263B2A2BE3460027392D /* GiphyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9263A2A2BE3460027392D /* GiphyCollectionViewCell.swift */; };
+		D8C9263D2A2BE3D30027392D /* GiphyCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9263C2A2BE3D30027392D /* GiphyCollectionView.swift */; };
+		D8C9263F2A2BE5E00027392D /* GiphyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9263E2A2BE5E00027392D /* GiphyViewModel.swift */; };
+		D8C926422A2BEC060027392D /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C926412A2BEC060027392D /* Dependencies.swift */; };
 		D8DBEB5D29DC9EE300628F5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DBEB5C29DC9EE300628F5C /* AppDelegate.swift */; };
 		D8DBEB5F29DC9EE300628F5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DBEB5E29DC9EE300628F5C /* SceneDelegate.swift */; };
 		D8DBEB6129DC9EE300628F5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DBEB6029DC9EE300628F5C /* ViewController.swift */; };
@@ -24,6 +30,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D8C926362A2BDF340027392D /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		D8C926382A2BE2A40027392D /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		D8C9263A2A2BE3460027392D /* GiphyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8C9263C2A2BE3D30027392D /* GiphyCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyCollectionView.swift; sourceTree = "<group>"; };
+		D8C9263E2A2BE5E00027392D /* GiphyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyViewModel.swift; sourceTree = "<group>"; };
+		D8C926412A2BEC060027392D /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		D8DBEB5929DC9EE300628F5C /* iOS-interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-interview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DBEB5C29DC9EE300628F5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8DBEB5E29DC9EE300628F5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +65,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D8C926342A2BDD750027392D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8DBEB6029DC9EE300628F5C /* ViewController.swift */,
+				D8C9263A2A2BE3460027392D /* GiphyCollectionViewCell.swift */,
+				D8C9263C2A2BE3D30027392D /* GiphyCollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8C926352A2BDD850027392D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8C926362A2BDF340027392D /* Response.swift */,
+				D8C926382A2BE2A40027392D /* GifImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8C926402A2BE92F0027392D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D8C9263E2A2BE5E00027392D /* GiphyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		D8DBEB5029DC9EE300628F5C = {
 			isa = PBXGroup;
 			children = (
@@ -72,15 +111,17 @@
 		D8DBEB5B29DC9EE300628F5C /* iOS-interview */ = {
 			isa = PBXGroup;
 			children = (
-				D8DBEB7B29DCA29600628F5C /* API */,
-				D8DBEB8829DCA29700628F5C /* Util */,
-				D8DBEB7029DCA28D00628F5C /* Resources */,
+				D8DBEB6A29DC9EE700628F5C /* Info.plist */,
 				D8DBEB5C29DC9EE300628F5C /* AppDelegate.swift */,
 				D8DBEB5E29DC9EE300628F5C /* SceneDelegate.swift */,
-				D8DBEB6029DC9EE300628F5C /* ViewController.swift */,
 				D8DBEB6529DC9EE700628F5C /* Assets.xcassets */,
+				D8DBEB7B29DCA29600628F5C /* API */,
 				D8DBEB6729DC9EE700628F5C /* LaunchScreen.storyboard */,
-				D8DBEB6A29DC9EE700628F5C /* Info.plist */,
+				D8C926352A2BDD850027392D /* Model */,
+				D8DBEB7029DCA28D00628F5C /* Resources */,
+				D8DBEB8829DCA29700628F5C /* Util */,
+				D8C926342A2BDD750027392D /* View */,
+				D8C926402A2BE92F0027392D /* ViewModel */,
 			);
 			path = "iOS-interview";
 			sourceTree = "<group>";
@@ -111,6 +152,7 @@
 			children = (
 				D8DBEB8A29DCA29700628F5C /* Anchors.swift */,
 				D8DBEB8B29DCA29700628F5C /* Typealias.swift */,
+				D8C926412A2BEC060027392D /* Dependencies.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -190,10 +232,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C926372A2BDF340027392D /* Response.swift in Sources */,
 				D8DBEB6129DC9EE300628F5C /* ViewController.swift in Sources */,
+				D8C926392A2BE2A40027392D /* GifImage.swift in Sources */,
+				D8C926422A2BEC060027392D /* Dependencies.swift in Sources */,
 				D8DBEB5D29DC9EE300628F5C /* AppDelegate.swift in Sources */,
+				D8C9263B2A2BE3460027392D /* GiphyCollectionViewCell.swift in Sources */,
 				D8DBEB9729DCA29700628F5C /* Typealias.swift in Sources */,
+				D8C9263D2A2BE3D30027392D /* GiphyCollectionView.swift in Sources */,
 				D8DBEB9D29DCA52A00628F5C /* NetworkingError.swift in Sources */,
+				D8C9263F2A2BE5E00027392D /* GiphyViewModel.swift in Sources */,
 				D8DBEB9C29DCA52A00628F5C /* NetworkingService.swift in Sources */,
 				D8DBEB9629DCA29700628F5C /* Anchors.swift in Sources */,
 				D8DBEB5F29DC9EE300628F5C /* SceneDelegate.swift in Sources */,
