@@ -4,9 +4,8 @@ Please look at the challenge closely and make sure to cover all of the requireme
 
 ## ⭐️ Technical Requirements
 - Swift is required
-- You can use SwiftUI, but please be prepared to justify the tradeoffs over UIKit
 - Write the app as if it was going to be part of a larger scale application by focusing on architecture and best practices
-- Feel free to use any 3rd party libraries
+- No third party libraries
 - Use any resources: Google, Stack Overflow, etc.  You'll need to explain your solution in depth, so be sure not to copy-paste
 
 ## 🔍 What we are looking for
@@ -14,15 +13,13 @@ Please look at the challenge closely and make sure to cover all of the requireme
 - Code quality: style, organization, and design
 - Personal flair
 - Communication, collaboration, time management, and technical excellence
+- Best practices for architecture and design
 
 Please email your Xcode project to `caleb@getpanel.dev` after the interview.
 
 # GIPHY Requirements
-- Display a `UICollectionView` that contains the gifs provided
-- Present a new UIViewController that has the title and a larger video size when selected
-- Give the user the ability to play/pause a video based on a custom interaction
-- The list should support pagination and infinite scrolling
-- You can use any video size that the API provides
+- Perform asynchronous downloading and caching for GIFs
+- The list needs to support pagination and infinite scrolling
 
 ## ⭐️ Bonus
 If you have any spare time, consider adding additional creative functionalities such as:
@@ -30,4 +27,5 @@ If you have any spare time, consider adding additional creative functionalities 
 - UI/UX improvements
 - Dynamically sized cells (width and height) based on video dimensions
 - Consider state management (empty state, loading state, offline state)
+- Give the user the ability to play/pause a video based on a custom interaction
 - Unit Tests

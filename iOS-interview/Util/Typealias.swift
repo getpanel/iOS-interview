@@ -7,4 +7,6 @@
 
 import Foundation
 
+typealias Closure = () -> Void
 typealias NetworkingCompletion<T> = (Result<T, NetworkingError>) -> Void
+typealias NetworkingResponse = Result<Response, NetworkingError>
